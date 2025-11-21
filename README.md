@@ -37,7 +37,7 @@ Returns the `title`, `metaDescription` and first `h1` from the page referred to 
 
 #### Examples
 
-##### Successful Request
+- ##### Successful Request
 
 ```
 GET /api/scrape?url=https://pptr.dev&ua=Puppeteer
@@ -54,7 +54,7 @@ GET /api/scrape?url=https://pptr.dev&ua=Puppeteer
 }
 ```
 
-##### Successful Request, But the Page Misses Some Data
+- ##### Successful Request, But the Page Misses Some Data
 
 ```
 GET /api/scrape?url=https://www.google.com
@@ -71,7 +71,7 @@ GET /api/scrape?url=https://www.google.com
 }
 ```
 
-##### Invalid or Missing URL
+- ##### Invalid or Missing URL
 
 ```
 GET /api/scrape
@@ -85,7 +85,7 @@ GET /api/scrape
 }
 ```
 
-##### Timeout
+- ##### Timeout
 
 All requests timeout after 20 seconds.
 
