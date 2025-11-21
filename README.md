@@ -9,7 +9,8 @@
 
 ### Starting the Server
 
-To start the server, simply run `npm i && npm run dev`.
+- First, copy `.env.example` into `.env`: `cp .env.example .env`
+- Install packages and start the server: `npm i && npm run dev`
 
 ## Scripts
 
