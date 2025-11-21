@@ -1,4 +1,4 @@
-# Task A: Mini Scraper
+# Task B: Mini Scraper
 
 ## Setup Instructions
 
